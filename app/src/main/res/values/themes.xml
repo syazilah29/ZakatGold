@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- MAIN APP THEME -->
+    <style name="Theme.GoldZakat" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryDark</item>
+        <item name="colorSecondary">@color/accentColor</item>
+        <item name="android:windowBackground">@color/bgColor</item>
+        <item name="actionBarStyle">@style/MyActionBar</item>
+    </style>
+
+    <!-- ACTION BAR STYLE -->
+    <style name="MyActionBar" parent="@style/Widget.AppCompat.ActionBar">
+
+        <item name="android:background">@color/dark_blue_header</item>
+    </style>
+
+</resources>
